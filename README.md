@@ -56,7 +56,7 @@ Then you should be able to access the developer console by hitting the "`" key. 
 * In the console window type "exportInterfaceFiles code" (no quotes)
  * This will create a new folder:  /Applications/World of Warcraft/BlizzardInterfaceCode
 
- ![alt text](https://github.com/smacky311/WorldOfWarcraftAddOn/DeveloperConsole.png "Developer Console")
+ ![alt text](https://github.com/smacky311/WorldOfWarcraftAddOn/blob/master/DeveloperConsole.png "Developer Console")
 
 ###ADVANCED (These links are not recommended reading when just starting out)
 
