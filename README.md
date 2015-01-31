@@ -1,6 +1,6 @@
 #Introduction to WoW Addon Development 
 
-Building AddOns for World of Warcraft requires a few tools and just 3 files:  
+This tutorial shows you what you need to get started building WoW add ons.  I have links to important tutorials.  And I show you a way to setup your environment to speed and ease the development process.  This tutorial is geared towards Mac.  Translating to a PC should be pretty easy to do.  Building AddOns for World of Warcraft requires a few tools and just 3 files:  
 
 * WorldOfWarcraftAddOn.lua
 * WorldOfWarcraftAddOn.toc
@@ -42,7 +42,13 @@ You can write World of Warcraft AddOns with notepad.  However, I prefer to use a
 
 ###Extracting the Interface
 
-I felt this section required special attention due to the difficulty in getting it going on a Mac.  The steps to Extract the Interface are:
+I felt this section required special attention due to the difficulty in getting it going on a Mac.  Most tutorials say to launch WoW via Terminal:
+
+```
+"open /Applications/World\ of\ Warcraft/World\ of\ Warcraft\ Launcher.app --args -console"
+```
+
+Then you should be able to access the developer console by hitting the "`" key.  Alternatively, you can open the developer console and extract the interface using:
 
 * Enable the developer console.  Once enabled you simply hit the "`" key to bring it up.
  * Enabling the console on the Mac requires creating a new file called "commandline.txt".  Place the file in /Applications/World Of Warcraft.  Inside the file it should simply have "-console". 
