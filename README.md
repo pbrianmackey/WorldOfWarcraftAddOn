@@ -41,7 +41,7 @@ Below you will find links to further your learning.  I also show you how I setup
 * Battle.net forum: http://us.battle.net/en/forum/15051532/
 * I recommend Pluralsight for a great intro to Lua:  http://www.pluralsight.com/courses/beginning-lua
 * Stackoverflow.com : A superior Q&A site for programming questions.
-
+* wowxml.md : My interpretation of how WoW treats XML
 
 ##ADVANCED (Wait until you get a grip on the basics before you hit these)
 
