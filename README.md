@@ -31,10 +31,12 @@ You can write World of Warcraft AddOns with notepad.  However, I prefer to use a
 
 ##Useful Links
 
-###Tutorials
+###Getting help / Tutorials
 
 * Interactive API: https://dev.battle.net/io-docs
 * Lua Programming: http://luatut.com/introduction.html
 * Xml Tutorial: http://www.wowwiki.com/UI_XML_tutorial
 
 * Battle.net forum: http://us.battle.net/en/forum/15051532/
+
+* I recommend Pluralsight for a great intro to Lua:  http://www.pluralsight.com/courses/beginning-lua
