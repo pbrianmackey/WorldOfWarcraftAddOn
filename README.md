@@ -2,6 +2,10 @@
 
 Setting up a WoWAddon requires 3 basic files:  *.lua, *.toc, *.xml
 
+Lua:  A programming language.  The guts of what you write goes here.
+Toc:  Table of contents file.  It tells WoW what files you made.
+Xml:  The WoW interface is built with XML.  This is how you hook into it.  Kinda like how HTML web pages work.
+
 For a good tutorial on what these files mean go to wowwiki: http://www.wowwiki.com/AddOn_programming_tutorial
 
 ##Tools
@@ -21,6 +25,6 @@ For a good tutorial on what these files mean go to wowwiki: http://www.wowwiki.c
 
 * Interactive API: https://dev.battle.net/io-docs
 * Lua Programming: http://luatut.com/introduction.html
-* Xml : http://www.wowwiki.com/UI_XML_tutorial
+* Xml Tutorial: http://www.wowwiki.com/UI_XML_tutorial
 
 * Battle.net forum: http://us.battle.net/en/forum/15051532/
