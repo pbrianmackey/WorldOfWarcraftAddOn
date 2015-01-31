@@ -6,7 +6,7 @@ For a good tutorial on what these files mean go to wowwiki: http://www.wowwiki.c
 
 ##Tools
 
-###Install Sublime Text
+###Install Sublime Text: http://www.sublimetext.com/
 
 ####Configure Sublime Text
 * Package Control : https://packagecontrol.io/installation
