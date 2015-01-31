@@ -6,7 +6,7 @@ This tutorial shows you what you need to get started building WoW add ons.  Buil
 * WorldOfWarcraftAddOn.toc
 * WorldOfWarcraftAddOn.xml
 
-To run this simple "Hello World" example copy the 3 files to /Applications/WorldOfWarcraft/Interface/AddOns/WorldOfWarcraftAddOn.  Then launch WoW.  The AddOn simply displays the words "Hello World!" in the chat window.  Thats it!
+To run this simple "Hello World" example copy the 3 files to /Applications/WorldOfWarcraft/Interface/AddOns/WorldOfWarcraftAddOn (case sensitive).  Then launch WoW.  The AddOn simply displays the words "Hello World!" in the chat window.  Thats it!
 
 This program is based off a wowwiki tutorial.  For a in depth tutorial of how this program works go to wowwiki: http://www.wowwiki.com/AddOn_programming_tutorial
 
@@ -14,7 +14,7 @@ The 3 file extensions (lua, toc and xml) tell you what type of file it is.
 
 Lua:  A programming language.  The guts of what you write goes here. <br />
 Toc:  Table of contents file.  It tells WoW what files you made.  <br />
-Xml:  The WoW interface is built with XML.  This is how you hook into it.  Kinda like how HTML web pages work.<br /><br />
+Xml:  The WoW interface is built with XML.  This is how you hook into it.  Kinda like how HTML web pages work.
 
 You can write World of Warcraft AddOns with notepad.  However, I prefer to use a tool that helps me program.  These tools add keyword highlighting and make it easy and fast to test your program.
 
@@ -31,7 +31,7 @@ Below you will find links to further your learning.  I also show you how I setup
 * In the second list of packages that appear type "Lua".  Locate and install "Lua Dev".  Now you can hit F7 to build Lua files in sublime.
 * Install Fix Mac Path (Mac users only): https://github.com/int3h/SublimeFixMacPath
 
-###Useful Links
+##Useful Links
 
 ####Getting help / Tutorials
 
@@ -42,7 +42,21 @@ Below you will find links to further your learning.  I also show you how I setup
 * I recommend Pluralsight for a great intro to Lua:  http://www.pluralsight.com/courses/beginning-lua
 * Stackoverflow.com : A superior Q&A site for programming questions.
 
-####Extracting the Interface
+
+##ADVANCED (Wait until you get a grip on the basics before you hit these)
+
+* WoW Lua API:  http://www.wowwiki.com/World_of_Warcraft_API  (Very handy!)
+* Reset your interface (I'm sure you won't need this): https://us.battle.net/support/en/article/resetting-the-world-of-warcraft-user-interface
+* WoW Interface Addon Kit:  https://us.battle.net/support/en/article/download-the-world-of-warcraft-interface-addon-kit
+* Locating Undocumented or Hidden Global Functions ADVANCED (Hidden API calls?): http://www.wowwiki.com/User:Mikk/Scripts
+* WoW Specific Lua Functions: http://www.wowwiki.com/Lua_functions
+* Widget API: http://www.wowwiki.com/FrameXML (not sure what this is used for)
+* XML UI: http://www.wowwiki.com/XML_UI
+* Event API: http://www.wowwiki.com/Event_API
+* WoW uses a subset of Lua 5.1: http://www.lua.org/manual/5.1/manual.html
+   * Also see http://www.wowwiki.com/Lua
+
+ ####Extracting the Interface
 
 I felt this section required special attention due to the difficulty in getting it going on a Mac.  Most tutorials say to launch WoW via Terminal:
 
@@ -58,21 +72,6 @@ Then you should be able to access the developer console by hitting the "`" key. 
  ![alt text](https://github.com/smacky311/WorldOfWarcraftAddOn/blob/master/DeveloperConsole.png "Developer Console")
 * In the console window type "exportInterfaceFiles code" (no quotes)
  * This will create a new folder:  /Applications/World of Warcraft/BlizzardInterfaceCode
-
-
-
-###ADVANCED (Wait until you get a grip on the basics before you hit these)
-
-* WoW Lua API:  http://www.wowwiki.com/World_of_Warcraft_API  (Very handy!)
-* Reset your interface (I'm sure you won't need this): https://us.battle.net/support/en/article/resetting-the-world-of-warcraft-user-interface
-* WoW Interface Addon Kit:  https://us.battle.net/support/en/article/download-the-world-of-warcraft-interface-addon-kit
-* Locating Undocumented or Hidden Global Functions ADVANCED (Hidden API calls?): http://www.wowwiki.com/User:Mikk/Scripts
-* WoW Specific Lua Functions: http://www.wowwiki.com/Lua_functions
-* Widget API: http://www.wowwiki.com/FrameXML (not sure what this is used for)
-* XML UI: http://www.wowwiki.com/XML_UI
-* Event API: http://www.wowwiki.com/Event_API
-* WoW uses a subset of Lua 5.1: http://www.lua.org/manual/5.1/manual.html
-   * Also see http://www.wowwiki.com/Lua
 
 ###Other
 
