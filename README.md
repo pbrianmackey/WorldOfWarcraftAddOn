@@ -1,18 +1,28 @@
 #Introduction to WoW Addon Development 
 
-Setting up a WoWAddon requires 3 basic files:  *.lua, *.toc, *.xml
+Building AddOns for World of Warcraft requires a few tools and just 3 files:  
+
+* WorldOfWarcraftAddOn.lua
+* WorldOfWarcraftAddOn.toc
+* WorldOfWarcraftAddOn.xml
+
+The extensions (lua, toc and xml) tell you what type of file it is.  
 
 Lua:  A programming language.  The guts of what you write goes here. <br />
 Toc:  Table of contents file.  It tells WoW what files you made.  <br />
 Xml:  The WoW interface is built with XML.  This is how you hook into it.  Kinda like how HTML web pages work.<br /><br />
 
-For a good tutorial on what these files mean go to wowwiki: http://www.wowwiki.com/AddOn_programming_tutorial
+For a good general tutorial on what these files mean go to wowwiki: http://www.wowwiki.com/AddOn_programming_tutorial
+
+
+You can write World of Warcraft AddOns with notepad.  However, I prefer to use a tool that helps me program.  These tools add keyword highlighting and make it easy and fast to test your program.
+
 
 ##Tools
 
 ###Install Sublime Text: http://www.sublimetext.com/
 
-####Configure Sublime Text
+####Configure Sublime Text (Install this stuff too)
 * Package Control : https://packagecontrol.io/installation
 * Open Sublime.  Then open the Command Palette (Ctrl-Shift-P on Windows or COMMAND + SHIFT + P on Mac).  
 * Locate "Package Control: Install Package"
