@@ -33,10 +33,26 @@ You can write World of Warcraft AddOns with notepad.  However, I prefer to use a
 
 ###Getting help / Tutorials
 
-* Interactive API: https://dev.battle.net/io-docs
+* UI Beginners Guide:  http://www.wowwiki.com/UI_beginner%27s_guide (great tutorial teaching the meaning of Slash, Macros and Scripting languages)
 * Lua Programming: http://luatut.com/introduction.html
 * Xml Tutorial: http://www.wowwiki.com/UI_XML_tutorial
-
 * Battle.net forum: http://us.battle.net/en/forum/15051532/
-
 * I recommend Pluralsight for a great intro to Lua:  http://www.pluralsight.com/courses/beginning-lua
+* Stackoverflow.com : A superior Q&A site for programming questions.
+
+###ADVANCED (These links are not recommended reading when just starting out)
+
+* WoW Lua API:  http://www.wowwiki.com/World_of_Warcraft_API  (Very handy!)
+* Reset your interface (I'm sure you won't need this): https://us.battle.net/support/en/article/resetting-the-world-of-warcraft-user-interface
+* WoW Interface Addon Kit:  https://us.battle.net/support/en/article/download-the-world-of-warcraft-interface-addon-kit
+* Locating Undocumented or Hidden Global Functions ADVANCED (Hidden API calls?): http://www.wowwiki.com/User:Mikk/Scripts
+* WoW Specific Lua Functions: http://www.wowwiki.com/Lua_functions
+* Widget API: http://www.wowwiki.com/FrameXML (not sure what this is used for)
+* XML UI: http://www.wowwiki.com/XML_UI
+* Event API: http://www.wowwiki.com/Event_API
+* WoW uses a subset of Lua 5.1: http://www.lua.org/manual/5.1/manual.html
+   * Also see http://www.wowwiki.com/Lua
+
+###Other
+
+* Interactive API: https://dev.battle.net/io-docs (Requires free signup and approval from Blizzard).  So far I have not found this API to be useful.
