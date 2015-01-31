@@ -56,7 +56,7 @@ Below you will find links to further your learning.  I also show you how I setup
 * WoW uses a subset of Lua 5.1: http://www.lua.org/manual/5.1/manual.html
    * Also see http://www.wowwiki.com/Lua
 
- ####Extracting the Interface
+####Extracting the Interface
 
 I felt this section required special attention due to the difficulty in getting it going on a Mac.  Most tutorials say to launch WoW via Terminal:
 
