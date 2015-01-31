@@ -5,3 +5,11 @@ There are two main types of elements that appear in the UI XML files. The first 
 Widgets:   Things you can interact with.
 Elements:  Further define widgets.
 
+Example:
+```xml
+<Button name="MyAddon_Button">
+  <Anchors>
+    <Anchor point="CENTER"/>
+  </Anchors>
+</Button>
+```
