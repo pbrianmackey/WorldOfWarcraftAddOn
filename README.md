@@ -1,18 +1,18 @@
 #Introduction to WoW Addon Development 
 
-This tutorial shows you what you need to get started building WoW add ons.  I have links to important tutorials.  And I show you a way to setup your environment to speed and ease the development process.  This tutorial is geared towards Mac.  Translating to a PC should be pretty easy to do.  Building AddOns for World of Warcraft requires a few tools and just 3 files:  
+This tutorial shows you what you need to get started building WoW add ons.  I have links to important tutorials.  And I show you a way to setup your environment to speed and ease the development process.  This tutorial is geared towards Mac.  This tutorial is current as of Warlords of Draenor.  Translating to a PC should be pretty easy to do.  Building AddOns for World of Warcraft requires a few tools and just 3 files:  
 
 * WorldOfWarcraftAddOn.lua
 * WorldOfWarcraftAddOn.toc
 * WorldOfWarcraftAddOn.xml
 
-The extensions (lua, toc and xml) tell you what type of file it is.  
+The extensions (lua, toc and xml) tell you what type of file it is.  To run this simple "Hello World" example copy the 3 files to /Applications/WorldOfWarcraft/Interface/AddOns/WorldOfWarcraftAddOn.  Then launch WoW.  The AddOn simply displays the words "Hello World!" in the chat window.
 
 Lua:  A programming language.  The guts of what you write goes here. <br />
 Toc:  Table of contents file.  It tells WoW what files you made.  <br />
 Xml:  The WoW interface is built with XML.  This is how you hook into it.  Kinda like how HTML web pages work.<br /><br />
 
-For a good general tutorial on what these files mean go to wowwiki: http://www.wowwiki.com/AddOn_programming_tutorial
+This program is based off a wowwiki tutorial.  For a in depth tutorial of how this program works go to wowwiki: http://www.wowwiki.com/AddOn_programming_tutorial
 
 
 You can write World of Warcraft AddOns with notepad.  However, I prefer to use a tool that helps me program.  These tools add keyword highlighting and make it easy and fast to test your program.
