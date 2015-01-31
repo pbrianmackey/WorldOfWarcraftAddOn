@@ -14,3 +14,13 @@ For a good tutorial on what these files mean go to wowwiki: http://www.wowwiki.c
 * Locate "Package Control: Install Package"
 * In the second list of packages that appear type "Lua".  Locate and install "Lua Dev".  Now you can hit F7 to build Lua files in sublime.
 * Install Fix Mac Path (Mac users only): https://github.com/int3h/SublimeFixMacPath
+
+##Useful Links
+
+###Tutorials
+
+* Interactive API: https://dev.battle.net/io-docs
+* Lua Programming: http://luatut.com/introduction.html
+* Xml : http://www.wowwiki.com/UI_XML_tutorial
+
+* Battle.net forum: http://us.battle.net/en/forum/15051532/
