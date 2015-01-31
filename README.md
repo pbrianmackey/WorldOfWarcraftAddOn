@@ -40,6 +40,16 @@ You can write World of Warcraft AddOns with notepad.  However, I prefer to use a
 * I recommend Pluralsight for a great intro to Lua:  http://www.pluralsight.com/courses/beginning-lua
 * Stackoverflow.com : A superior Q&A site for programming questions.
 
+###Extracting the Interface
+
+I felt this section required special attention due to the difficulty in getting it going on a Mac.  The steps to Extract the Interface are:
+
+* Enable the developer console.  Once enabled you simply hit the "`" key to bring it up.
+ * Enabling the console on the Mac requires creating a new file called "commandline.txt".  Place the file in /Applications/World Of Warcraft.  Inside the file it should simply have "-console". 
+* Launch WoW.  Now tap the "`" key and a block window should display at the top of WoW.
+* In the console window type "exportInterfaceFiles code" (no quotes)
+ * This will create a new folder:  /Applications/World of Warcraft/BlizzardInterfaceCode
+
 ###ADVANCED (These links are not recommended reading when just starting out)
 
 * WoW Lua API:  http://www.wowwiki.com/World_of_Warcraft_API  (Very handy!)
