@@ -6,7 +6,7 @@ This tutorial shows you what you need to get started building WoW add ons.  Buil
 * WorldOfWarcraftAddOn.toc
 * WorldOfWarcraftAddOn.xml
 
-To run this simple "Hello World" example copy the 3 files to /Applications/WorldOfWarcraft/Interface/AddOns/WorldOfWarcraftAddOn (case sensitive).  Then launch WoW.  The AddOn simply displays the words "Hello World!" in the chat window.  Thats it!
+To run this simple "Hello World" example copy the 3 files in the beginner folder on Git to /Applications/WorldOfWarcraft/Interface/AddOns/WorldOfWarcraftAddOn (case sensitive).  Then launch WoW.  The AddOn simply displays the words "Hello World!" in the chat window.  Thats it!
 
 This program is based off a wowwiki tutorial.  For a in depth tutorial of how this program works go to wowwiki: http://www.wowwiki.com/AddOn_programming_tutorial
 
@@ -50,7 +50,8 @@ Below you will find links to further your learning.  I also show you how I setup
 * WoW Interface Addon Kit:  https://us.battle.net/support/en/article/download-the-world-of-warcraft-interface-addon-kit
 * Locating Undocumented or Hidden Global Functions ADVANCED (Hidden API calls?): http://www.wowwiki.com/User:Mikk/Scripts
 * WoW Specific Lua Functions: http://www.wowwiki.com/Lua_functions
-* Widget API: http://www.wowwiki.com/FrameXML (not sure what this is used for)
+* Widget API: http://www.wowwiki.com/Widget_API (Widgets are buttons, checkboxes..stuff you can interact with)
+* FrameXML: http://www.wowwiki.com/FrameXML (FrameXML is the part of Blizzards user interface that can be overridden by AddOn developers)
 * XML UI: http://www.wowwiki.com/XML_UI
 * Event API: http://www.wowwiki.com/Event_API
 * WoW uses a subset of Lua 5.1: http://www.lua.org/manual/5.1/manual.html
