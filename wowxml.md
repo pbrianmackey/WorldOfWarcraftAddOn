@@ -77,7 +77,50 @@ HIGHLIGHT - Level 4. Place your text, objects, and buttons in this level<br />
 Elements in the HIGHLIGHT Layer are automatically shown or hidden when the mouse enters or leaves!
 For Highlighting to work you need enableMouse="true" in your <Frame> attributes.
 
+####Templates
+
+Templates are a form of inheritance. Templates are used when you want to create a common layout for several frames.
+
+```xml
+<Button name="MyAddonButtonTemplate" parent="UIParent" virtual="true">
+     <ButtonText name="$parentText"/>
+</Button>
+<Button name="MyAddonSpecialButton" inherits="MyAddonButtonTemplate">
+     <Size><AbsDimension x="40" y="22"/></Size>
+</Button>
+```
+Is the same as doing:
+
+```xml
+<Button name="MyAddonSpecialButton" parent="UIParent">
+     <Size><AbsDimension x="40" y="22"/></Size>
+     <ButtonText name="MyAddonSpecialButtonText"/>
+</Button>
+```
+
+* Templates are created at the root of the file. Meaning that you cannot have a template that is a child of another element
+* However, Templates can inherit other templates. 
+* Templates must have their virtual attributes set to true
+* Templates must have a name, and it cannot use the $parent keyword
+* Children of a template do not need to be named, but when doing so, you should use the $parent keyword
+* Any inherited attributes, properties, or children can also be overridden. 
+
+####Scripts
+
+Scripts can be added to the XML directly or via a file reference.
+
+```xml
+<Ui ... >
+ <Script file="mycode.lua"/>
+ <Frame name="MyFrame">
+  ...
+ </Frame>
+</Ui>
+```
+
+Functions defined in mycode.lua are available to later scripts.  Earlier defined scripts cannot see functions defined in mycode.lua.
 
 
+####Best Practices
 
-
+It is recommended that you prefix the names of all of your functions, UI objects and global variables with the name of your AddOn like above; all data is shared between Blizzard's own UI and all your addons, so picking a unique prefix helps avoid clashes with other people's code.
