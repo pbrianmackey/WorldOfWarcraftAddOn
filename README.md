@@ -71,7 +71,7 @@ Then you should be able to access the developer console by hitting the "`" key. 
  * Enabling the console on the Mac requires creating a new file called "commandline.txt".  Place the file in /Applications/World Of Warcraft.  Inside the file it should simply have "-console". 
 * Launch WoW.  Now tap the "`" key and a block window should display at the top of WoW.
  ![alt text](https://github.com/smacky311/WorldOfWarcraftAddOn/blob/master/DeveloperConsole.png "Developer Console")
-* In the console window type "exportInterfaceFiles code" (no quotes)
+* In the console window type "exportInterfaceFiles code" (no quotes).  **You must be logged out of the game for this to work**
  * This will create a new folder:  /Applications/World of Warcraft/BlizzardInterfaceCode
 
 ###Other
