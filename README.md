@@ -8,6 +8,15 @@ This tutorial shows you what you need to get started building WoW add ons.  Buil
 
 To run this simple "Hello World" example copy the 3 files in the beginner folder on Git to /Applications/WorldOfWarcraft/Interface/AddOns/WorldOfWarcraftAddOn (case sensitive).  Then launch WoW.  The AddOn simply displays the words "Hello World!" in the chat window.  Thats it!
 
+####Rake
+
+Once you feel comfortable, go ahead and clone this repository.  At the terminal the command:
+
+* "rake buildb" deploys the beginner files to your local WoW directory (Mac only).
+* "rake buildi" deploys the intermediate files to your local WoW directory (Mac only).
+
+##About
+
 This program is based off a wowwiki tutorial.  For a in depth tutorial of how this program works go to wowwiki: http://www.wowwiki.com/AddOn_programming_tutorial
 
 The 3 file extensions (lua, toc and xml) tell you what type of file it is.  

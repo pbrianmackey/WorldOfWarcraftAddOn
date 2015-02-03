@@ -6,8 +6,11 @@
   <Frame name="WorldOfWarcraftAddOnIntermediate">
    <Scripts>
     <OnLoad>
-     HelloWorld();
+     WorldOfWarcraftAddOnIntermediate:Show();
     </OnLoad>
    </Scripts>
+   <Texture name="DialogButtonNormalTexture" file="Interface\Buttons\UI-Panel-Button-Up" virtual="true">
+    <TexCoords left="0" right="0.625" top="0" bottom="0.6875"/>
+  </Texture>
   </Frame>
 </Ui>
