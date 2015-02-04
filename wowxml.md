@@ -120,6 +120,12 @@ Scripts can be added to the XML directly or via a file reference.
 
 Functions defined in mycode.lua are available to later scripts.  Earlier defined scripts cannot see functions defined in mycode.lua.
 
+####How do I know what attributes are available?
+
+The list of attributes available to an XML Widget is fairly short:  http://www.wowwiki.com/XML_attributes
+
+Also for a list of general elements available:  http://www.wowwiki.com/XML_elements
+
 
 ####Best Practices
 

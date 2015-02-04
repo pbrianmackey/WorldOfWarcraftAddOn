@@ -3,14 +3,20 @@
                    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
                    ..\..\FrameXML\UI.xsd">
   <Script File="WorldOfWarcraftAddOnIntermediate.lua"/>
-  <Frame name="WorldOfWarcraftAddOnIntermediate">
+  <!-- Why doesn't this display? -->
+  <Frame name="WorldOfWarcraftAddOnIntermediate" hidden="false">
+    <Size x="234" y="500"/>
    <Scripts>
     <OnLoad>
      WorldOfWarcraftAddOnIntermediate:Show();
     </OnLoad>
    </Scripts>
-   <Texture name="DialogButtonNormalTexture" file="Interface\Buttons\UI-Panel-Button-Up" virtual="true">
-    <TexCoords left="0" right="0.625" top="0" bottom="0.6875"/>
-  </Texture>
+   <Button name="$parentButton">
+        <Size x="234" y="21"/>
+        <Anchors>
+          <Anchor point="TOPLEFT"/>
+          <Anchor point="BOTTOMRIGHT"/>
+        </Anchors>
+    </Button>
   </Frame>
 </Ui>

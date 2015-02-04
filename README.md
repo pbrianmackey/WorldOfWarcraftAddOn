@@ -40,6 +40,10 @@ Below you will find links to further your learning.  I also show you how I setup
 * In the second list of packages that appear type "Lua".  Locate and install "Lua Dev".  Now you can hit F7 to build Lua files in sublime.
 * Install Fix Mac Path (Mac users only): https://github.com/int3h/SublimeFixMacPath
 
+###Reload UI
+
+/reload (slash command available in game chat window)
+
 ##Useful Links
 
 ####Getting help / Tutorials
