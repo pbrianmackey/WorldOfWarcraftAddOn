@@ -29,6 +29,8 @@ You can write World of Warcraft AddOns with notepad.  However, I prefer to use a
 
 Below you will find links to further your learning.  I also show you how I setup my development environment to speed and ease the development process.  This tutorial is geared towards Mac.  This tutorial is current as of Warlords of Draenor.  Translating to a PC should be pretty easy to do, but I'm happy to have someone edit in the details :).
 
+Currently, the beginner course (see beginner folder) is complete.  An intermediate and advanced course are in the works.
+
 ##Tools
 
 ###Install Sublime Text: http://www.sublimetext.com/
@@ -42,7 +44,7 @@ Below you will find links to further your learning.  I also show you how I setup
 
 ###Reload UI
 
-/reload (slash command available in game chat window)
+/reload (slash command available in game chat window).  Useful for reloading the AddOn as you make updates.
 
 ##Useful Links
 
