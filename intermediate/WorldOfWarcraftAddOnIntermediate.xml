@@ -1,22 +1,27 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/" 
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                   xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.blizzard.com/wow/ui/
                    ..\..\FrameXML\UI.xsd">
   <Script File="WorldOfWarcraftAddOnIntermediate.lua"/>
-  <!-- Why doesn't this display? -->
-  <Frame name="WorldOfWarcraftAddOnIntermediate" hidden="false">
-    <Size x="234" y="500"/>
-   <Scripts>
+  <!-- test ruby -->
+  <Frame name="WorldOfWarcraftAddOnIntermediate" parent="UIParent" inherits="BasicFrameTemplate" hidden="false">
+    <Size x="234" y="300"/>
+    <Anchors>
+      <Anchor point="CENTER" />
+    </Anchors>
+    <Scripts>
     <OnLoad>
      WorldOfWarcraftAddOnIntermediate:Show();
+      print("Loaded up garrisonUItemplate extension");
     </OnLoad>
    </Scripts>
-   <Button name="$parentButton">
+    <Frames>
+   <Button name="$parentButton" inherits="UIPanelButtonTemplate" text="Click me!">
         <Size x="234" y="21"/>
         <Anchors>
-          <Anchor point="TOPLEFT"/>
-          <Anchor point="BOTTOMRIGHT"/>
+          <Anchor point="CENTER"/>
         </Anchors>
     </Button>
+      </Frames>
   </Frame>
 </Ui>
