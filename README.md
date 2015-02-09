@@ -51,12 +51,15 @@ Currently, the beginner course (see beginner folder) is complete.  An intermedia
 ####Getting help / Tutorials
 
 * UI Beginners Guide:  http://www.wowwiki.com/UI_beginner%27s_guide (great tutorial teaching the meaning of Slash, Macros and Scripting languages)
+* World of Warcraft AddOn Programming: http://www.amazon.com/World-Warcraft-Programming-Reference-Creating/dp/0470481285/ref=sr_1_1?ie=UTF8&qid=1423323837&sr=8-1&keywords=world+of+warcraft+programming
 * Lua Programming: http://luatut.com/introduction.html
+* WoW Lua AddOn: http://www.curse.com/addons/wow/wowlua
 * Xml Tutorial: http://www.wowwiki.com/UI_XML_tutorial
 * Battle.net forum: http://us.battle.net/wow/en/forum/1011693/
 * I recommend Pluralsight for a great intro to Lua:  http://www.pluralsight.com/courses/beginning-lua
 * Stackoverflow.com : A superior Q&A site for programming questions.
 * wowxml.md : My interpretation of how WoW treats XML
+* wowgeneral.md : Personal Research notes.
 
 ##ADVANCED (Wait until you get a grip on the basics before you hit these)
 
